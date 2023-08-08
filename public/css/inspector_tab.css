@@ -1,0 +1,51 @@
+.kt-datatable__cell--check{
+    width: 25px !important;
+}
+
+[data-field="id"] {
+    width: 50px !important;
+}[data-field="id"] span{
+     width: 35px !important;
+ }
+
+[data-field="first_name"] span{
+    width: 170px !important;
+}
+[data-field="last_name"] span{
+    width: 170px !important;
+}
+[data-field="first_name"] {
+    width: 170px !important;
+}
+[data-field="last_name"] {
+    width: 170px !important;
+}
+[data-field="email"] span{
+    width: 220px !important;
+}
+[data-field="email"] {
+    width: 220px !important;
+}
+[data-field="created_at"] span{
+    width: 170px !important;
+}
+[data-field="created_at"] {
+    width: 170px !important;
+}
+[data-field="region.name"] span{
+    width: 220px !important;
+}
+[data-field="region.name"] {
+    width: 220px !important;
+}
+[data-field="status"] span{
+    width: 110px !important;
+}
+[data-field="status"] {
+    width: 110px !important;
+}
+
+[data-field="phone"] span{
+    width: 110px !important;
+}
+

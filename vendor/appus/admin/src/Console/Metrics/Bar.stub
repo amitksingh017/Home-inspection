@@ -1,0 +1,25 @@
+<?php
+
+namespace {metric_namespace};
+
+use {parent_metric_namespace};
+
+class {metric_name} extends {parent_metric_name}
+{
+
+    protected $name = 'My Metric';
+
+    /**
+     * @param array $filter
+     * @return array
+     */
+    public function getData(array $filter = []): array
+    {
+        // return metric logic
+        return [
+            'key1' => 1,
+            'key2' => 1,
+        ];
+    }
+
+}

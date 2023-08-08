@@ -1,0 +1,14 @@
+
+[data-field="id"] span{
+    width: 50px !important;
+}
+
+[data-field="name"] span{
+    width: 200px !important;
+}
+
+[data-field="text"] span{
+    width: 700px !important;
+    text-align: justify-all;
+}
+

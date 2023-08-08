@@ -1,0 +1,12 @@
+{
+    "favicon": "<theme_url>img/favicon.ico",
+    "js": [
+        "<theme_url>js/daux.min.js"
+    ],
+    "variants": {
+        "violet": {
+            "favicon": "<theme_url>img/favicon.ico",
+            "css": ["<theme_url>css/theme-violet.css"]
+        }
+    }
+}

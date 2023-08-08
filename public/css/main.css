@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.modal-body{
+    margin: 0 auto;
+}
+
+.modal-backdrop{
+    display: none;
+}
+
+.btn-right{
+    position: absolute;
+    top: 128px;
+    z-index: 1;
+    right: 50px;
+    width: 100px;
+    height: 40px;
+}
+@media (max-width: 1024px) {
+    .btn-right{
+        position: absolute;
+        top: 100px;
+        z-index: 1;
+        right: 50px;
+        width: 100px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,41 @@
+<?php
+
+namespace {controller_namespace};
+
+use Appus\Admin\Details\Details;
+use Appus\Admin\Form\Form;
+use Appus\Admin\Table\Table;
+use Appus\Admin\Http\Controllers\AdminController;
+use {model_namespace};
+
+class {controller_name} extends AdminController
+{
+
+    public function grid(): Table
+    {
+        $table = new Table(new {model_name}());
+
+        // your columns are here
+
+        return $table;
+    }
+
+    public function details(): Details
+    {
+        $details = new Details(new {model_name}());
+
+        // your fields are here
+
+        return $details;
+    }
+
+    public function form(): Form
+    {
+        $form = new Form(new {model_name}());
+
+        // your fields are here
+
+        return $form;
+    }
+
+}

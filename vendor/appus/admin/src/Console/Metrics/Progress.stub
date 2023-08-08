@@ -1,0 +1,32 @@
+<?php
+
+namespace {metric_namespace};
+
+use {parent_metric_namespace};
+
+class {metric_name} extends {parent_metric_name}
+{
+
+    protected $name = 'My Metric';
+
+    protected $color = [
+        '#0f0',
+        '#00f',
+    ];
+
+    protected $label = [
+        'label_for_first_progress',
+        'label_for_second_progress',
+    ];
+
+    /**
+     * @param array $filter
+     * @return mixed
+     */
+    public function getData(array $filter = [])
+    {
+        // return metric logic
+        return [1, 1];
+    }
+
+}

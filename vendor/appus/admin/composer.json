@@ -1,0 +1,46 @@
+{
+    "name": "appus/admin",
+    "version": "0.1.0",
+    "description": "Admin constructor for Laravel.",
+    "keywords": [
+        "laravel",
+        "admin"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/framework": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "daux/daux.io": "^0.11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Appus\\Admin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Appus\\Admin\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Appus\\Admin\\CoreServiceProvider"
+            ],
+            "aliases": {
+                "Admin": "Appus\\Admin\\Admin"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

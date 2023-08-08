@@ -1,0 +1,27 @@
+<?php
+
+namespace {metric_namespace};
+
+use {parent_metric_namespace};
+
+class {metric_name} extends {parent_metric_name}
+{
+
+    protected $name = 'My Metric';
+
+    protected $header = ['header1', 'header2'];
+
+    /**
+     * @param array $filter
+     * @return mixed
+     */
+    public function getData(array $filter = []): array
+    {
+        // return metric logic
+        return [
+            ['value1-1', 'value1-2'],
+            ['value2-1', 'value2-2'],
+        ];
+    }
+
+}

@@ -1,0 +1,1 @@
+<i class="kt-nav__link-icon flaticon2-expand"></i>

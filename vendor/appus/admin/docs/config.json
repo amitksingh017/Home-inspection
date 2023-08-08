@@ -1,0 +1,8 @@
+{
+    "title": "Appus Admin",
+    "format": "html",
+    "html": {
+        "search": true,
+        "theme": "appus-violet"
+    }
+}

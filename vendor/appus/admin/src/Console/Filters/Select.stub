@@ -1,0 +1,37 @@
+<?php
+
+namespace {filter_namespace};
+
+use {parent_filter_namespace};
+
+class {filter_name} extends {parent_filter_name}
+{
+
+    protected $name = 'My Filter';
+
+    protected $key = 'my-filter';
+
+    /**
+     * @param $query
+     * @param string $value
+     * @return mixed
+     */
+    public function query($query, string $value)
+    {
+        // return query logic
+        return $query;
+    }
+
+    /**
+     * @return array
+     */
+    public function options(): array
+    {
+        // options for select filter
+        return [
+            'key1' => 'value1',
+            'key2' => 'value2',
+        ];
+    }
+
+}

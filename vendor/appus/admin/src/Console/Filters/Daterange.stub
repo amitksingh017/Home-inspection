@@ -1,0 +1,28 @@
+<?php
+
+namespace {filter_namespace};
+
+use {parent_filter_namespace};
+
+class {filter_name} extends {parent_filter_name}
+{
+
+    protected $name = 'My Filter';
+
+    protected $key = 'my-filter';
+
+    protected $format = 'YYYY-MM-DD';
+
+    /**
+     * @param $query
+     * @param string $from
+     * @param string $to
+     * @return mixed
+     */
+    public function query($query, string $from, string $to)
+    {
+        // return query logic
+        return $query;
+    }
+
+}

@@ -1,0 +1,22 @@
+<?php
+
+namespace {metric_namespace};
+
+use {parent_metric_namespace};
+
+class {metric_name} extends {parent_metric_name}
+{
+
+    protected $name = 'My Metric';
+
+    /**
+     * @param array $filter
+     * @return int
+     */
+    public function getCount(array $filter = []): int
+    {
+        // return metric logic
+        return 0;
+    }
+
+}

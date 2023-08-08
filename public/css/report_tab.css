@@ -1,0 +1,26 @@
+.kt-datatable__cell--check{
+    width: 5px !important;
+}
+
+
+[data-field="id"] {
+    width: 50px !important;
+}[data-field="id"] span{
+     width: 35px !important;
+ }
+
+[data-field="created_at"] {
+    width:200px !important;
+}
+
+[data-field="updated_at"] {
+    width: 200px !important;
+}
+[data-field="address"] {
+    width: 200px !important;
+}
+
+[data-field="actions"] span{
+    width: 100px !important;
+}
+
